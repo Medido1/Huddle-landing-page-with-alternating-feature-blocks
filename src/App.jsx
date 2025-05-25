@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import Header from "../src/components/Header";
 
 function App() {
   return (
-    <p className='ml-50 text-5xl'>
-      Test react + tailwind
-    </p>
+    <div>
+      <Header />
+    </div>
   )
 }
 

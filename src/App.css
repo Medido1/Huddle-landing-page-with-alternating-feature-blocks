@@ -1,2 +1,13 @@
 @import "tailwindcss";
 
+.font-poppins { /* Headings */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.font-openSans { /* Body, Call-to-actions */
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
