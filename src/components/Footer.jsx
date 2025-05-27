@@ -9,7 +9,7 @@ import instagramIcon from "../assets/images/instagram.svg";
 function Footer() {
   return (
     <footer className="bg-[#03191F] p-4 flex flex-col">
-      <img src={logo} alt="logo" className="mt-50 h-8 mb-10" />
+      <img src={logo} alt="logo" className="mt-50 self-start h-8 mb-10" />
       <div>
         <div className="flex items-start gap-4 mb-4">
           <img src={iconLocation} alt="location icon"/>
