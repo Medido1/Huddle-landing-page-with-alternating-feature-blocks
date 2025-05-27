@@ -7,7 +7,7 @@ function Main() {
   const [cardsData, setCardsData] = useState(cards);
 
   return (
-    <main className="relative p-4 flex flex-col items-center gap-4 bg-gray-100">
+    <main className="relative p-4 flex flex-col items-center gap-4 bg-gray-100 lg:p-20">
       <div className="mb-50">
         {cards.map(card => (
           <Card 
@@ -17,7 +17,7 @@ function Main() {
         ))}
       </div>
       <div className="bg-white w-[90%] px-4 py-12 text-center rounded-lg shadow-lg
-        absolute -bottom-20">
+        absolute -bottom-20 max-w-[600px]">
         <p className="font-poppins text-md mb-5">
           Ready To Build Your Community?
         </p>

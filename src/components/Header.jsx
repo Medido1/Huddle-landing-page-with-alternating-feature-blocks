@@ -20,7 +20,7 @@ function Header() {
   },[])
 
   return (
-    <header className="relative  bg-[#E6FAFB]">
+    <header className="relative  bg-[#E6FAFB] lg:p-10">
       <img
         src={bgImg}
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
@@ -33,9 +33,10 @@ function Header() {
             Try it Free
           </button>
         </div>
-        <div className="md:flex">
-          <div className="flex flex-col items-center md:items-start">
-            <h1 className="font-poppins text-center md:text-left mx-auto text-2xl font-bold mt-20 ">
+        <div className="md:flex lg:justify-between">
+          <div className="flex flex-col items-center md:items-start max-w-[500px]">
+            <h1 className="font-poppins text-center md:text-left text-2xl lg:text-4xl 
+            font-bold mt-20 ">
               Build The Community Your Fans Will Love
             </h1>
             <p className="mt-6 text-center md:text-left mx-auto font-openSans">

@@ -8,13 +8,13 @@ import instagramIcon from "../assets/images/instagram.svg";
 
 function Footer() {
   return (
-    <footer className="bg-[#03191F] p-4 flex flex-col">
+    <footer className="bg-[#03191F] p-4 lg:px-25 flex flex-col">
       <img src={logo} alt="logo" className="mt-50 self-start h-8 mb-10" />
       <div className="md:flex md:justify-between">
         <div>
           <div className="flex items-start gap-4 mb-4">
             <img src={iconLocation} alt="location icon"/>
-            <p className="text-gray-200 font-openSans ml-2 md:max-w-60">
+            <p className="text-gray-200 font-openSans ml-2 md:max-w-60 lg:max-w-80">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Temporibus, consectetur cum. Aliquam minus, neque blanditiis
               vel necessitatibus id ex laborum.
@@ -34,7 +34,7 @@ function Footer() {
           </div>
         </div>
         <div className="text-gray-200 flex flex-col gap-2 mt-10 
-          text-lg md:mt-0 md:grid md:grid-cols-2 md:gap-4">
+          text-lg md:mt-0 md:grid md:grid-cols-2 md:gap-4 lg:gap-32">
           <ul className="flex flex-col gap-2">
             <li>
               <a href="" className="cursor-pointer">About Us</a>
@@ -64,7 +64,7 @@ function Footer() {
           <img src={instagramIcon} alt="instagram icon" className="cursor-pointer h-6 "/>
         </div>
       </div>
-      <p className="my-5 self-center text-white text-sm md:-mr-100">
+      <p className="my-5 self-center text-white text-sm md:-mr-100 lg:-mr-200">
         © copyright 2018 huddle. All rights reserved.
       </p>
     </footer>
