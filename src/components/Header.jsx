@@ -44,7 +44,7 @@ function Header() {
               Create connections with your users as you engage in genuine discussion. 
             </p>
             <button className="bg-[#FF4EDC] text-white font-bold px-12 py-3 rounded-full
-              mt-8 shadow-lg cursor-pointer">
+              mt-8 shadow-lg cursor-pointer hover:bg-[#FF94EB]">
               Get Started For Free
             </button>
           </div>
