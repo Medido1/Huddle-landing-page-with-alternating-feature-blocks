@@ -22,7 +22,7 @@ function Main() {
           Ready To Build Your Community?
         </p>
         <button className="bg-[#FF4EDC] rounded-full text-white text-sm 
-          font-bold px-14 py-2 cursor-pointer">
+          font-bold px-14 py-2 cursor-pointer hover:bg-[#FF94EB]">
           Get Started For Free
         </button>
       </div>
